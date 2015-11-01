@@ -1,0 +1,16 @@
+{
+    "name": "yoshz/php-v8js-reactjs",
+    "license": "MIT",
+    "type": "project",
+    "description": "Prototype application running php-v8js with reactjs",
+    "autoload": {
+        "psr-4": { "": "src/", "PhpReactjs\\": "src/" }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "ext-v8js": "~0.3.0",
+        "reactjs/react-php-v8js": "~1.0",
+        "silex/silex": "~1.3"
+    },
+    "minimum-stability": "stable"
+}
